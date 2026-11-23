@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Камертон — школа музыки для взрослых и детей</title>
+<meta name="description" content="Школа музыки «Камертон»: фортепиано, гитара, вокал и сольфеджио. Индивидуальные занятия с преподавателем, первый урок бесплатно.">
+<meta name="theme-color" content="#0d0f14">
+<meta property="og:title" content="Камертон — школа музыки">
+<meta property="og:description" content="Индивидуальные занятия музыкой. Первый урок бесплатно.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+
+<header class="site-header" id="header">
+  <div class="container header-inner">
+    <a class="brand" href="#top" aria-label="Камертон, на главную">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M8 4v18a6 6 0 1 0 4 5.66V12l12-3v10a6 6 0 1 0 4 5.66V4L8 8v-4z" fill="currentColor"/>
+      </svg>
+      <span>Камертон</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Основная навигация">
+      <a href="#about">О школе</a>
+      <a href="#programs">Программы</a>
+      <a href="#teachers">Преподаватели</a>
+      <a href="#prices">Цены</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Переключить тему" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="currentColor"/></svg>
+      </button>
+      <a class="btn btn-primary btn-sm" href="#signup">Записаться</a>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span>Набор в группы и на индивидуальные занятия</p>
+        <h1>Учиться музыке<br><em>никогда не поздно</em></h1>
+        <p class="lead">Фортепиано, гитара, вокал и сольфеджио. Преподаватель подстраивается под ваш темп, а не наоборот. Первый урок — бесплатно, без обязательств.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#signup">Записаться на пробный урок</a>
+          <a class="btn btn-ghost" href="#programs">Посмотреть программы</a>
+        </div>
+        <dl class="stats">
+          <div><dt>12</dt><dd>лет преподаём</dd></div>
+          <div><dt>400+</dt><dd>учеников</dd></div>
+          <div><dt>9</dt><dd>педагогов</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="keyboard">
+          <span class="key"></span><span class="key black"></span><span class="key"></span><span class="key black"></span>
+          <span class="key"></span><span class="key"></span><span class="key black"></span><span class="key"></span>
+          <span class="key black"></span><span class="key"></span><span class="key black"></span><span class="key"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <header class="section-head reveal">
+        <h2>Школа, в которой не страшно ошибаться</h2>
+        <p>Мы не готовим к конкурсам по расписанию. Мы помогаем играть то, что нравится, — и делаем это аккуратно.</p>
+      </header>
+
+      <div class="grid-3">
+        <article class="card reveal">
+          <span class="card-icon" aria-hidden="true">🎯</span>
+          <h3>Свой репертуар</h3>
+          <p>Начинаем с вашей любимой песни, а не со сборника этюдов. Техника наращивается на материале, который нравится.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon" aria-hidden="true">🗓</span>
+          <h3>Гибкое расписание</h3>
+          <p>Занятия с 9:00 до 22:00, перенос за 12 часов без потери оплаты. Онлайн или в студии у метро Маяковская.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon" aria-hidden="true">🎧</span>
+          <h3>Записи занятий</h3>
+          <p>Каждый урок записываем на видео — можно пересмотреть дома, ничего не забывается между встречами.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="programs">
+    <div class="container">
+      <header class="section-head reveal">
+        <h2>Программы</h2>
+        <p>Четыре направления, три уровня в каждом. Уровень определяем на первом занятии.</p>
+      </header>
+
+      <div class="programs">
+        <article class="program reveal">
+          <h3>Фортепиано</h3>
+          <p>Постановка рук, чтение с листа, аккомпанемент. От «Собачьего вальса» до джазовых стандартов.</p>
+          <ul><li>Индивидуально</li><li>Акустический рояль</li><li>Домашняя практика</li></ul>
+        </article>
+        <article class="program reveal">
+          <h3>Гитара</h3>
+          <p>Акустика и электро. Бой, перебор, баррэ, первые песни — уже на третьем занятии.</p>
+          <ul><li>Акустика и электро</li><li>Своя гитара не нужна</li><li>Группы по 2–3</li></ul>
+        </article>
+        <article class="program reveal">
+          <h3>Вокал</h3>
+          <p>Опора, дыхание, интонация. Работаем с зажимами и страхом звучать — без «поставьте голос за месяц».</p>
+          <ul><li>Эстрадный и академический</li><li>Микрофон и запись</li><li>Разбор любимых песен</li></ul>
+        </article>
+        <article class="program reveal">
+          <h3>Сольфеджио</h3>
+          <p>Ноты, интервалы, слух. Тот самый «скучный» предмет, только на понятных примерах из музыки.</p>
+          <ul><li>Мини-группы</li><li>Подготовка в колледж</li><li>Онлайн</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="teachers">
+    <div class="container">
+      <header class="section-head reveal">
+        <h2>Преподаватели</h2>
+        <p>Консерватория или колледж, стаж от шести лет, и главное — умеют объяснять без снобизма.</p>
+      </header>
+
+      <div class="teachers">
+        <article class="teacher reveal">
+          <div class="avatar" style="--tint:#7c5cff" aria-hidden="true">АК</div>
+          <h3>Анна Ковалёва</h3>
+          <p class="role">Фортепиано · 14 лет стажа</p>
+          <p>МГК им. Чайковского. Специализация — взрослые с нуля и возвращение после долгого перерыва.</p>
+        </article>
+        <article class="teacher reveal">
+          <div class="avatar" style="--tint:#22c55e" aria-hidden="true">ДС</div>
+          <h3>Дмитрий Соколов</h3>
+          <p class="role">Гитара · 11 лет стажа</p>
+          <p>Играет в трёх проектах. Учит играть в ансамбле, а не только «по табам в одиночестве».</p>
+        </article>
+        <article class="teacher reveal">
+          <div class="avatar" style="--tint:#f59e0b" aria-hidden="true">МЛ</div>
+          <h3>Мария Лебедева</h3>
+          <p class="role">Вокал · 9 лет стажа</p>
+          <p>Эстрадный вокал, работа со сценическим волнением. Ведёт записи уроков и разборы выступлений.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="prices">
+    <div class="container">
+      <header class="section-head reveal">
+        <h2>Цены</h2>
+        <p>Оплата за месяц, без вступительных взносов. Первый урок — бесплатно.</p>
+      </header>
+
+      <div class="prices">
+        <article class="price reveal">
+          <h3>Пробный урок</h3>
+          <p class="amount">0 ₽</p>
+          <p class="note">60 минут, знакомство и определение уровня</p>
+          <ul><li>Диагностика слуха и ритма</li><li>План занятий</li><li>Без обязательств</li></ul>
+          <a class="btn btn-ghost full" href="#signup">Записаться</a>
+        </article>
+        <article class="price price-featured reveal">
+          <p class="badge">Выбирают чаще</p>
+          <h3>Индивидуально</h3>
+          <p class="amount">4 800 ₽<span>/ 4 занятия</span></p>
+          <p class="note">60 минут, ваш преподаватель и график</p>
+          <ul><li>4 занятия по 60 минут</li><li>Запись каждого урока</li><li>Домашние разборы в чате</li><li>Перенос за 12 часов</li></ul>
+          <a class="btn btn-primary full" href="#signup">Записаться</a>
+        </article>
+        <article class="price reveal">
+          <h3>Мини-группа</h3>
+          <p class="amount">2 600 ₽<span>/ 4 занятия</span></p>
+          <p class="note">2–3 человека, 75 минут</p>
+          <ul><li>Гитара и сольфеджио</li><li>Ансамблевая практика</li><li>Гибкая оплата</li></ul>
+          <a class="btn btn-ghost full" href="#signup">Записаться</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reviews">
+    <div class="container">
+      <header class="section-head reveal">
+        <h2>Отзывы</h2>
+      </header>
+      <div class="grid-3">
+        <blockquote class="quote reveal">
+          <p>«Мне 43, я боялась, что будет неловко. Через три месяца играю “Let It Be” и не краснею.»</p>
+          <footer>Ольга, 5 месяцев занятий</footer>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>«Сын ходил “потому что надо”, теперь сам напоминает про урок. Помогло то, что играют его музыку.»</p>
+          <footer>Игорь, папа ученика</footer>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>«Взяла вокал перед свадьбой — спела песню без паники. Записи уроков реально спасали.»</p>
+          <footer>Настя, 2 месяца занятий</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="faq">
+    <div class="container narrow">
+      <header class="section-head reveal">
+        <h2>Частые вопросы</h2>
+      </header>
+
+      <div class="faq">
+        <details class="reveal">
+          <summary>Нужен ли свой инструмент?</summary>
+          <p>Для занятий в студии — нет: рояль, гитары и микрофоны у нас. Для домашней практики на первых порах хватит синтезатора с weighted-клавиатурой; поможем выбрать в бюджете до 30 000 ₽.</p>
+        </details>
+        <details class="reveal">
+          <summary>Я совсем не умею, это не поздно?</summary>
+          <p>Больше половины наших учеников начали после 30 и никогда не занимались музыкой. Первый месяц уходит на координацию, дальше становится заметно легче.</p>
+        </details>
+        <details class="reveal">
+          <summary>Можно ли заниматься онлайн?</summary>
+          <p>Да. Нужны стабильный интернет, камера и инструмент. Для фортепиано и гитары есть вторая камера на клавиатуру/гриф — так преподаватель видит руки.</p>
+        </details>
+        <details class="reveal">
+          <summary>Что если пропущу занятие?</summary>
+          <p>Перенос без потери оплаты — не позднее чем за 12 часов. Пропуск без предупреждения сгорает, кроме болезни (по справке переносим).</p>
+        </details>
+        <details class="reveal">
+          <summary>Есть ли скидки?</summary>
+          <p>Скидка 10% при оплате за 8 занятий вперёд и 15% для второго члена семьи. Скидки не суммируются.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="signup">
+    <div class="container narrow">
+      <div class="signup-card reveal">
+        <div class="signup-copy">
+          <h2>Записаться на пробный урок</h2>
+          <p>Оставьте имя и телефон — перезвоним в течение рабочего дня, подберём время и преподавателя. Это бесплатно.</p>
+          <ul class="signup-list">
+            <li>60 минут с педагогом</li>
+            <li>Определим уровень и цель</li>
+            <li>Никаких обязательств</li>
+          </ul>
+        </div>
+
+        <form class="form" id="signup-form" novalidate>
+          <label class="field">
+            <span>Имя</span>
+            <input type="text" name="name" id="name" autocomplete="name" placeholder="Как к вам обращаться" required minlength="2">
+            <small class="error" data-for="name"></small>
+          </label>
+
+          <label class="field">
+            <span>Телефон</span>
+            <input type="tel" name="phone" id="phone" autocomplete="tel" placeholder="+7 (999) 123-45-67" required>
+            <small class="error" data-for="phone"></small>
+          </label>
+
+          <label class="field">
+            <span>Направление</span>
+            <select name="program" id="program">
+              <option>Фортепиано</option>
+              <option>Гитара</option>
+              <option>Вокал</option>
+              <option>Сольфеджио</option>
+              <option>Пока не знаю</option>
+            </select>
+          </label>
+
+          <label class="checkbox">
+            <input type="checkbox" id="consent" required>
+            <span>Согласен на обработку персональных данных</span>
+          </label>
+          <small class="error" data-for="consent"></small>
+
+          <button class="btn btn-primary full" type="submit" id="submit-btn">Записаться</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <a class="brand" href="#top">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M8 4v18a6 6 0 1 0 4 5.66V12l12-3v10a6 6 0 1 0 4 5.66V4L8 8v-4z" fill="currentColor"/></svg>
+        <span>Камертон</span>
+      </a>
+      <p class="muted">Школа музыки для взрослых и детей. Москва, ул. Садовая-Триумфальная, 12.</p>
+    </div>
+    <div>
+      <h4>Школа</h4>
+      <a href="#about">О нас</a><a href="#teachers">Преподаватели</a><a href="#prices">Цены</a>
+    </div>
+    <div>
+      <h4>Связь</h4>
+      <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+      <a href="mailto:hello@kamerton.example">hello@kamerton.example</a>
+      <p class="muted">Ежедневно, 9:00–22:00</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p class="muted">© <span id="year">2026</span> Школа музыки «Камертон». Демонстрационный проект.</p>
+  </div>
+</footer>
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>
